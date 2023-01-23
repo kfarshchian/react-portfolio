@@ -105,8 +105,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
    
   ## Credits
   
-  Code with Sloba
-  Web Dev Simplified 
+  - Code with Sloba
+  - Web Dev Simplified 
 
   ## Tests
   N/A
