@@ -1,0 +1,58 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/1/site1.png",
+            "title": "Emergency Teleport",
+            "description": "JavaScript, API, HTML5, CSS3, LocalStorage, Bulma, Bulma-CSS-Framework, JQeury, DayJS",
+            "url": "https://kfarshchian.github.io/emergency-teleport/"
+        }, 
+        {
+            "cover": "/portfolio/1/site3.png",
+            "title": "Weather Cirrusly",
+            "description": "JavaScript, API, HTML5, CSS3, LocalStorage, DayJS, Boostrap5",
+            "url": "https://kfarshchian.github.io/weather-cirrusly/"
+        },
+        {
+            "cover": "/portfolio/1/site2.png",
+            "title": "Task Manager",
+            "description": "NodeJS, JavaScript, HTML5, Server, CSS3, Bulma",
+            "url": "https://powerful-harbor-05362.herokuapp.com/"
+        },
+        {
+            "cover": "/portfolio/1/site4.png",
+            "title": "Manage My Team",
+            "description": "NodeJS, JavaScript, HTML5, Jest, CSS3, Bulma, Bulma-CSS-Framework, Jest-Tests",
+            "url": "https://github.com/kfarshchian/Manage-My-Team"
+        },
+        {
+            "cover": "/portfolio/1/site5.png",
+            "title": "JavaScript Pop Quiz",
+            "description": "JavaScript, JQuery, HTML-CSS-JavaSCcript, DayJS",
+            "url": "https://kfarshchian.github.io/Pop-Quiz-JavaScript/"
+        },
+        {
+            "cover": "/portfolio/1/site6.png",
+            "title": "Unique Password Generator",
+            "description": "JavaScript, HTML5, CSS3",
+            "url": "https://kfarshchian.github.io/Unique-Password-Generator/"
+        },
+        {
+            "cover": "/portfolio/1/site7.png",
+            "title": "Horiseon Markting Made Easy",
+            "description": "HTML5, CSS3",
+            "url": "https://kfarshchian.github.io/Marketing-Management-Site-plan/"
+        },
+        {
+            "cover": "/portfolio/1/site8.png",
+            "title": "Time Wise Daily Planner",
+            "description": "JQuery, LocalStorage, DayJS",
+            "url": "https://kfarshchian.github.io/time-wise/"
+        },
+        {
+            "cover": "/portfolio/1/site9.png",
+            "title": "READme-Generator",
+            "description": "NodeJS, JavaScript, Inquirer",
+            "url": "https://github.com/kfarshchian/READme-Generator"
+        }
+    ]
+}
