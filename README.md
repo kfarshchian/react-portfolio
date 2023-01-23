@@ -19,19 +19,19 @@
   
   ## Installation
  - npm install
--npm I @emailjs/browser
--npm I @forawesome/free-brands-svg-icons
--npm I @forawesome/free-solid-svg-icons
--npm I @forawesome/free-brands-svg-icons
--npm I @forawesome/react-fontawesome
--npm I animate.css
--npm I gsap-trial
--npm I loaders.css
--npm I react-leaflet
--npm I react-loaders
--npm I react-router-dom
--npm I sass
--npm I animate.css
+- npm I @emailjs/browser
+- npm I @forawesome/free-brands-svg-icons
+- npm I @forawesome/free-solid-svg-icons
+- npm I @forawesome/free-brands-svg-icons
+- npm I @forawesome/react-fontawesome
+- npm I animate.css
+- npm I gsap-trial
+- npm I loaders.css
+- npm I react-leaflet
+- npm I react-loaders
+- npm I react-router-dom
+- npm I sass
+- npm I animate.css
 
 
   ## Usage
