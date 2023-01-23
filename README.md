@@ -1,12 +1,11 @@
-  # react-portfolio
+# react-portfolio
 
-  ## License
+## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-  ## Description
- I wanted a page to
- use as a visual resume to show off some of the skills and projects for when I apply for jobs. I decided to use React as my base to push myself to learn more and sharpen my skills in that
- area.
+## Description
+I wanted a page to
+use as a visual resume to show off some of the skills and projects for when I apply for jobs. I decided to use React as my base to push myself to learn more and sharpen my skills in that
+area.
 
   ## Table of Contents
   - [License](#License)
@@ -33,12 +32,11 @@
 - npm I sass
 - npm I animate.css
 
-
-  ## Usage
-  ![alttext](./assets/images/{add name of picture here})
-   This project was made to show the power of react and Node.js. Everything in web developing can be done easier in these programs. 
+## Usage
+![alttext](./assets/images/{add name of picture here})
+This project was made to show the power of react and Node.js. Everything in web developing can be done easier in these programs. 
    
-   ### Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
