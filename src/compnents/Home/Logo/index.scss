@@ -7,7 +7,7 @@
     right: 45%;
     bottom: 0;
     left: auto;
-    opacity: 0;
+    opacity: 1;
     z-index: -1;
 
     svg{
@@ -25,9 +25,12 @@
         left: 70%;
         margin: auto;
         width: 100%;
-        opacity: 0;
-        // transform: rotateZ(30deg);
+        .fadeIn{ animation: fade 10s; }
         z-index: 1;
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+          }
     }
 }
 
