@@ -22,8 +22,8 @@ const About = () => {
 
     return (
         <>
-        <div className='container about-page'>
-            <div className='text-zone'>
+        <div className='container about-page' >
+            <div className='text-zone'id='aboutMe'>
                 <h1>
                     <AnimatedLetters 
                         letterClass={letterClass}
@@ -37,7 +37,12 @@ const About = () => {
                 </p>
                 <p>
                 As a naturally curious person. I enjoy working on projects no matter how hard 
-                the problem to find a solution. I work on projects any chance I get to keep improving on my skills. 
+                it is to find a solution. I work on projects any chance I get to keep improving on my skills. 
+                </p>
+                <p>
+                I have an Associates degree from SLCC in Computer Science and Information Technology, where I received
+                a Certificate of Proficiency in Linux, Programming, and Cyber Security. I also have a Certificate from
+                the University of Utah for Coding Bootcamp Full Stack Developer. 
                 </p>
                 <p>
                 Some of my other hobbies include building computers, cars, and carpentry projects like tables and shelves.

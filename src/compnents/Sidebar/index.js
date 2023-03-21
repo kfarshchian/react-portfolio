@@ -1,6 +1,6 @@
 import { Link, NavLink } from 'react-router-dom';
 import './index.scss';
-import Logo from '../../assets/images/kfNBG.png';
+import Logo from '../../assets/images/newLogo.png';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faBars, faEnvelope, faHome, faSuitcase, faUser, faClose} from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -11,10 +11,13 @@ const Sidebar = () => {
   const [showNav, setShowNav] = useState(false);
   
     return (
-    <div className='nav-bar'>
-        <Link className='logo' to='/'>
+    <div className='nav-bar navbar' class="row">
+        <div class="col navbar-brand">
+        <Link className='logo' to='/' >
             <img src={Logo} alt='logo' />
         </Link>
+        </div>
+        <div class="col">
         <nav className={showNav ? 'mobile-show' : ''}>
             <NavLink exact="true" onClick={() => setShowNav(false)} activeclassname="active" to="/">
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
@@ -36,33 +39,35 @@ const Sidebar = () => {
             className='close-icon'
             />
         </nav>
-        <ul>
-            <li>
+        </div>
+        <div class="col" id='otherPages'>
+            
                 <a
                     target="_blank"
                     rel="noreferrer"
                     href="https://www.linkedin.com/in/kameron-farshchian-27599582/"
                 >
-                    <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                    <FontAwesomeIcon icon={faLinkedin} color="black" id='otherPages'/>
                 </a>
-            </li>
-            <li>
+           
                 <a
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/kfarshchian"
                 >
-                    <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                    <FontAwesomeIcon icon={faGithub} color="black" id='otherPages'/>
                 </a>
-            </li>
-        </ul>
+                </div> 
         <FontAwesomeIcon 
         onClick={() => setShowNav(true)}
         icon={faBars}
         color="#C8C6C6"
         size="3x"
         className='hamburger-icon'
+        id='hamburgerLabel'
         />
+        
+        
     </div>
 )
 }

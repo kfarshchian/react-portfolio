@@ -41,7 +41,7 @@ const Contact = () => {
     return (
         <>
         <div className="container contact-page" >
-            <div className='text-zone'>
+            <div className='text-zone' id='contactMe'>
                 <h1>
                     <AnimatedLetters strArray={['C', 'o', 'n', 't', 'a', 'c', 't', '', 'm', 'e']}
                     letterClass={letterClass}
@@ -49,7 +49,7 @@ const Contact = () => {
                     />
                 </h1>
                 <p>
-                I am interested in web development job opportunities. However, if you have any other requests or questions, don't hesitate to contact me using below form either.
+                I am interested in web development job opportunities. However, if you have any other requests or questions, don't hesitate to contact me using the form below.
                 </p>
                 <div className='contact-form'>
                     <form ref={form} onSubmit={sendEmail}>
@@ -81,7 +81,7 @@ const Contact = () => {
                   ></textarea>
                 </li>
                         <li>
-                        <input type="submit" className="flat-button" value="SEND" />
+                        <input type="submit" className="flat-button" value="SEND" to="/"/>
                         </li>
                     </ul>
                 </form>
@@ -93,11 +93,11 @@ const Contact = () => {
                 United States
                 <br />
                 Utah <br />
-                Syracuse <br />
+                Salt Lake City <br />
                 <span>kfarshchian@gmail.com</span>
             </div>
             <div className="map-wrap">
-              <MapContainer center={[41.0838, -112.0580]} zoom={13}>
+              <MapContainer center={[40.7608, -111.8910]} zoom={13}>
               <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
               <Marker position={[41.0838, -112.0580]}>
               </Marker>

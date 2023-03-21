@@ -2,9 +2,10 @@ import { useEffect, useState } from 'react';
 import {Link} from 'react-router-dom';
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
-import LogoTitle from '../../assets/images/logo4.png';
+import LogoTitle from '../../assets/images/logosmallblue.png';
 import Logo from './Logo';
 import Loader from 'react-loaders';
+import bigLogo from '../../assets/images/newlogoblue.png';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -33,7 +34,7 @@ const Home = () => {
                     <br />
                     <span className={`${letterClass} _13`}>I</span> 
                     <span className={`${letterClass} _14`}>'m</span> 
-                <img src={LogoTitle} alt="developer" />
+                <img src={LogoTitle} alt="developer" id='smallLogo'/>
                 <AnimatedLetters letterClass={letterClass} 
                 strArray={nameArray}
                 idx={15}/>
@@ -45,12 +46,14 @@ const Home = () => {
                 strArray={jobArray}
                 idx={22}/>
                 </h1>
-                <h2> Frontend Developer / Backend Developer / Aspiring Full Stack Developer</h2>
+                <h2> Frontend Developer / Backend Developer </h2>
                 <Link to="/contact" className='flat-button'>
                     CONTACT ME
                 </Link>
             </div>
-            <Logo />
+            <div>
+            <img src={bigLogo} alt="developer" id='mainLogo' />
+            </div>
         </div>
         <Loader type="pacman" />
         </>

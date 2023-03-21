@@ -41,12 +41,12 @@
         h1{
             font-size: 53px;
             font-family: 'Coolvetica';
-            color: #C8C6C6;
+            color: black;
             font-weight: 400;
             margin-top: 0;
             position: relative;
             margin-bottom: 40px;
-            left: 10px;
+            left: 0px;
 
             &::before{
                 font-family: 'La Belle Aurore';
@@ -59,7 +59,6 @@
             }
 
             &::after{
-                content: '<h1/>';
                 font-family: 'La Belle Aurore';
                 font-size: 18px;
                 line-height: 18px;
@@ -73,7 +72,7 @@
 
         p {
             font-style: 13px;
-            color: #fff;
+            color: black;
             font-family: sans-serif;
             font-weight: 300;
             min-width: fit-content;
@@ -91,7 +90,7 @@
         }
         .text-zone{
             position: absolute;
-            left: 10%;
+            left: 30%;
             top: 50%;
             transform: translateY(-50%);
             width: 35%;
@@ -102,7 +101,7 @@
     }
 
     .text-animate-hover{
-        color: #fff;
+        color: black;
     }
 }
 

@@ -121,10 +121,16 @@
             margin-left: 20px;
             margin-top: 20px;
         }
-
-        .image-box {
-            height: 200px;
-            max-width: calc(50% - 10px);
+        .image-box{
+            height: 400px;
+            width: 1450px;
+            padding: 5px;
+        }
+        .images-container {
+            display: grid;
+            height: 100%;
+            width: 100%;
+            // max-width: calc(50% - 0px);
         }
     }
 
