@@ -1,8 +1,42 @@
-# Getting Started with Create React App
+# react-portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## License
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Description
+I wanted a page to
+use as a visual resume to show off some of the skills and projects for when I apply for jobs. I decided to use React as my base to push myself to learn more and sharpen my skills in that
+area.
 
-## Available Scripts
+  ## Table of Contents
+  - [License](#License)
+  - [Description](#Description)
+  - [Installation](#installation)
+  - [Usage](#Usage)
+  - [Credits](#credits)
+  - [Tests](#Tests)
+  - [Questions](#Questions)
+  
+  ## Installation
+ - npm install
+- npm I @emailjs/browser
+- npm I @forawesome/free-brands-svg-icons
+- npm I @forawesome/free-solid-svg-icons
+- npm I @forawesome/free-brands-svg-icons
+- npm I @forawesome/react-fontawesome
+- npm I animate.css
+- npm I gsap-trial
+- npm I loaders.css
+- npm I react-leaflet
+- npm I react-loaders
+- npm I react-router-dom
+- npm I sass
+- npm I animate.css
+
+## Usage
+![alttext](./assets/images/{add name of picture here})
+This project was made to show the power of react and Node.js. Everything in web developing can be done easier in these programs. 
+   
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -68,3 +102,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   
+  ## Credits
+  
+  - Code with Sloba
+  - Web Dev Simplified 
+
+  ## Tests
+  N/A
+
+  ## Questions
+  If you would like to ask me any questions. Contact me at my email address below or you can check out my Github profile.
+  - Email-kfarshchian@gmail.com
+  - Github user name- kfarshchian
+  
+  
+
+
+
+
+
