@@ -5,6 +5,8 @@
 ## Description
 I decided to create this portfolio as a visual resume to show off some of the skills I have and projects I have worked on. It is easier to show a future employer what I can do rather than just having them written down on a resume. The portfolio was created with React and uses a few other NPM packages listed in the installation section of the Readme.   
 
+Live site - https://kfarshchian.netlify.app/
+
   ## Table of Contents
   - [License](#License)
   - [Description](#Description)
