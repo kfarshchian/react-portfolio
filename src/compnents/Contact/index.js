@@ -81,7 +81,7 @@ const Contact = () => {
                   ></textarea>
                 </li>
                         <li>
-                        <input type="submit" className="flat-button" value="SEND" to="/"/>
+                        <input type="submit" className="flat-button" value="SEND" to="https://kfarshchian.netlify.app/"/>
                         </li>
                     </ul>
                 </form>

@@ -3,9 +3,7 @@
 ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
-I wanted a page to
-use as a visual resume to show off some of the skills and projects for when I apply for jobs. I decided to use React as my base to push myself to learn more and sharpen my skills in that
-area.
+I decided to create this portfolio as a visual resume to show off some of the skills I have and projects I have worked on. It is easier to show a future employer what I can do rather than just having them written down on a resume. The portfolio was created with React and uses a few other NPM packages listed in the installation section of the Readme.   
 
   ## Table of Contents
   - [License](#License)
@@ -33,7 +31,7 @@ area.
 - npm I animate.css
 
 ## Usage
-![alttext](./assets/images/{add name of picture here})
+![alttext](./assets/images/site1.png)
 This project was made to show the power of react and Node.js. Everything in web developing can be done easier in these programs. 
    
 ### Available Scripts
