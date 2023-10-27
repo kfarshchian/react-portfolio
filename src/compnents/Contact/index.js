@@ -40,7 +40,8 @@ const Contact = () => {
 
     return (
         <>
-        <div className="container contact-page" >
+        <div id='fullContactMe' >
+        <div className="container contact-page"  >
             <div className='text-zone' id='contactMe'>
                 <h1>
                     <AnimatedLetters strArray={['C', 'o', 'n', 't', 'a', 'c', 't', '', 'm', 'e']}
@@ -96,7 +97,7 @@ const Contact = () => {
                 Salt Lake City <br />
                 <span>kfarshchian@gmail.com</span>
             </div>
-            <div className="map-wrap">
+            <div className="map-wrap" id='map' >
               <MapContainer center={[40.7608, -111.8910]} zoom={13}>
               <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
               <Marker position={[41.0838, -112.0580]}>
@@ -105,6 +106,7 @@ const Contact = () => {
         </div>
         </div>
         <Loader type="pacman" />
+        </div>
         </>
     )
 

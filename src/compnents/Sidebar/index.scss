@@ -1,3 +1,8 @@
+#iconsNormal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .row {
     padding-top: 5px;
 
@@ -12,17 +17,21 @@
             }
         }
     }
+    
 
 nav {
 
     padding-top: 3px;
-
+    justify-content: center;
+    align-items: center;
 a{
     font-size: 22px;
     position: relative;
-    margin: 65px;
+    margin: 35px;
     text-decoration: none;
     padding-top: 5px;
+   
+    
     
     i {
         transition: all .3s ease-out;
@@ -121,13 +130,26 @@ a.active{
     display: none;
   }
 @media screen and (max-width: 1200px){
+    #otherPages{
+        width: 25px;
+        height: 30px;
+        text-align: right;
+        margin: 0;
+        // margin-right: 15px;
+        // margin-left: 15px;
+        padding-top: 3px;
+    }
+    #Logo{
+        display: none;
+    }
     #hamburgerLabel{
         position:absolute;
-        left: 280px;
-        top: 11px;
+        left: 15px;
+        top: 10px;
         margin: 0;
         padding: 0;
         width: 25px;
+        color: black;
     }
     #hamburger{
         position:relative;

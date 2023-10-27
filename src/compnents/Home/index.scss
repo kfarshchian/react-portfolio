@@ -1,13 +1,21 @@
+#homeContainer{
+    position: relative;
+}
 .home-page {
-
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    
     .text-zone{
-        position: absolute;
-        left: 30%;
-        top: 36%;
-        transform: translateY(-50%);
-        width: 50%;
-        max-height: 90%;
+        // position: absolute;
+        // left: 20%;
+        // top: 36%;
+        // transform: translateY(-50%);
+        // width: 50%;
+        // max-height: 90%;
         color: black;
+        
     }
     h1 {
         display: flex-wrap;
@@ -82,9 +90,9 @@
     }
 }
 #mainLogo{
-    position: relative;
-    left: 1200px;
-    top: 125px;
+    // position: relative;
+    // left: 80%;
+    // top: 125px;
 }
 
 @media screen and (max-width: 1200px){

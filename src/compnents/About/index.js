@@ -22,7 +22,7 @@ const About = () => {
 
     return (
         <>
-        <div className='container about-page' >
+        <div className='container about-page' id='fullAboutMe'>
             <div className='text-zone'id='aboutMe'>
                 <h1>
                     <AnimatedLetters 

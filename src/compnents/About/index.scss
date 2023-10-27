@@ -1,3 +1,8 @@
+#fullAboutMe{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
 .stage-cube-cont {
     width: 50%;
     height: 100%;
@@ -5,7 +10,7 @@
     padding-top: 18%;
     margin-left: 0;
     position: absolute;
-    right: -400px;
+    // right: -400px;
     overflow: hidden;
 }
 

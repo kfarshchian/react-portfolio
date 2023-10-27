@@ -36,8 +36,12 @@ console.log(PortfolioData);
                                     <h4 className="description">{port.description}</h4>
                                     <button
                                         className="btn"
+                                        onClick={() => window.open(port.github)}
+                                    >GitHub Repo</button>
+                                    <button
+                                        className="btn"
                                         onClick={() => window.open(port.url)}
-                                    >View</button>
+                                    >View Site</button>
                                 </div>
                             </div>
                         )

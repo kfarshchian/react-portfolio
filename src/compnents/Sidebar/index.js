@@ -14,10 +14,10 @@ const Sidebar = () => {
     <div className='nav-bar navbar' class="row">
         <div class="col navbar-brand">
         <Link className='logo' to='/' >
-            <img src={Logo} alt='logo' />
+            <img id='Logo' src={Logo} alt='logo' />
         </Link>
         </div>
-        <div class="col">
+        <div class="col" id='iconsNormal'>
         <nav className={showNav ? 'mobile-show' : ''}>
             <NavLink exact="true" onClick={() => setShowNav(false)} activeclassname="active" to="/">
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
@@ -40,7 +40,7 @@ const Sidebar = () => {
             />
         </nav>
         </div>
-        <div class="col" id='otherPages'>
+        <div class="col"  id='otherPages'>
             
                 <a
                     target="_blank"

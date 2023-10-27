@@ -1,22 +1,53 @@
 {
     "portfolio": [
         {
+            "cover": "/portfolio/1/asap.png",
+            "title": "ASAP WebDevs",
+            "description": "Nextjs, JavaScript, HTML5, CSS3, MUI",
+            "url": "https://www.asapwebdevs.com/",
+            "github": "https://github.com/kfarshchian/asap-webdevs"
+        },
+        {
+            "cover": "/portfolio/1/KennySite.png",
+            "title": "Mortgage Promotion Site (Client)",
+            "description": "Nextjs, JavaScript, HTML5, CSS3, MUI, SEO",
+            "url": "https://www.mortgagekenny.com/",
+            "github": "https://github.com/kfarshchian/kenny-site-nextjs"
+        },
+        {
+            "cover": "/portfolio/1/Lowtility.png",
+            "title": "Solar Calculator (Client)",
+            "description": "React, JavaScript, HTML5, CSS3, MUI",
+            "url": "https://solarcalculator.lowtility.com/",
+            "github": "Locked for work"
+        },
+        {
+            "cover": "/portfolio/1/logic.png",
+            "title": "Logic-Lounge",
+            "description": "React, Node, JavaScript, API, HTML5, CSS3, NoSQL, MUI, Server, Express, MongDB, DayJS, Moment, Database, authentication (JWT), dotenv, Stripe, GraphQL, Railway ",
+            "url": "https://logic-lounge-production.up.railway.app/",
+            "github": "https://github.com/kfarshchian/Logic-Lounge"
+        },
+        {
             "cover": "/portfolio/1/mymenu.png",
             "title": "MyMenu",
             "description": "JavaScript, API, HTML5, CSS3, MySQL, Bulma, Server, Express, JQeury, DayJS, Database, Bycrypt, dotenv, sequilize",
-            "url": "https://kfarshchian.github.io/emergency-teleport/"
+            "url": "https://my-menu.herokuapp.com/",
+            "github": "https://github.com/kfarshchian/my-menu"
         }, 
         {
             "cover": "/portfolio/1/site1.png",
             "title": "Emergency Teleport",
             "description": "JavaScript, API, HTML5, CSS3, LocalStorage, Bulma, Bulma-CSS-Framework, JQeury, DayJS",
-            "url": "https://kfarshchian.github.io/emergency-teleport/"
+            "url": "https://kfarshchian.github.io/emergency-teleport/",
+            "github": "https://github.com/kfarshchian/emergency-teleport"
         }, 
         {
             "cover": "/portfolio/1/site3.png",
             "title": "Weather Cirrusly",
             "description": "JavaScript, API, HTML5, CSS3, LocalStorage, DayJS, Boostrap5",
-            "url": "https://kfarshchian.github.io/weather-cirrusly/"
+            "url": "https://kfarshchian.github.io/weather-cirrusly/",
+            "github": "https://github.com/kfarshchian/weather-cirrusly"
         }
     ]
 }
