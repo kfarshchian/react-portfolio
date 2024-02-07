@@ -1,6 +1,27 @@
 {
     "portfolio": [
         {
+            "cover": "/portfolio/1/Lowtility.png",
+            "title": "Solar Calculator (Client)",
+            "description": "React, JavaScript, HTML5, CSS3, MUI",
+            "url": "https://solarcalculator.lowtility.com/",
+            "github": "Locked for work"
+        },
+        {
+            "cover": "/portfolio/1/dmdhelp.png",
+            "title": "DMDHelp",
+            "description": "Wordpress, JavaScript, HTML5, CSS3, PHP",
+            "url": "https://dmdhelp.org/",
+            "github": ""
+        },
+        {
+            "cover": "/portfolio/1/Apothica.png",
+            "title": "Apothica",
+            "description": "Shopify, JavaScript, HTML5, CSS3, Liquid",
+            "url": "https://www.asapwebdevs.com/",
+            "github": ""
+        },
+        {
             "cover": "/portfolio/1/asap.png",
             "title": "ASAP WebDevs",
             "description": "Nextjs, JavaScript, HTML5, CSS3, MUI",
@@ -13,13 +34,6 @@
             "description": "Nextjs, JavaScript, HTML5, CSS3, MUI, SEO",
             "url": "https://www.mortgagekenny.com/",
             "github": "https://github.com/kfarshchian/kenny-site-nextjs"
-        },
-        {
-            "cover": "/portfolio/1/Lowtility.png",
-            "title": "Solar Calculator (Client)",
-            "description": "React, JavaScript, HTML5, CSS3, MUI",
-            "url": "https://solarcalculator.lowtility.com/",
-            "github": "Locked for work"
         },
         {
             "cover": "/portfolio/1/logic.png",
@@ -41,13 +55,6 @@
             "description": "JavaScript, API, HTML5, CSS3, LocalStorage, Bulma, Bulma-CSS-Framework, JQeury, DayJS",
             "url": "https://kfarshchian.github.io/emergency-teleport/",
             "github": "https://github.com/kfarshchian/emergency-teleport"
-        }, 
-        {
-            "cover": "/portfolio/1/site3.png",
-            "title": "Weather Cirrusly",
-            "description": "JavaScript, API, HTML5, CSS3, LocalStorage, DayJS, Boostrap5",
-            "url": "https://kfarshchian.github.io/weather-cirrusly/",
-            "github": "https://github.com/kfarshchian/weather-cirrusly"
         }
     ]
 }
